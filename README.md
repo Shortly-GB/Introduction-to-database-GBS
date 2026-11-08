@@ -5,10 +5,6 @@
 **Group:** Iulian Mucuta · Petter Junior · Marilene Dukaj
 **DBMS:** MySQL Community Server 8.0.16 or later (tested on 9.7.4, Windows 11, MySQL Workbench 8.0)
 
-A fictional teaching scenario: a relational prototype that replaces the paper / Word / Excel
-records of an eye hospital's outpatient service with a normalised MySQL database, including
-roles, hashed credentials, transactions and injection-safe query examples.
-
 ---
 
 ## Repository structure
@@ -22,9 +18,6 @@ roles, hashed credentials, transactions and injection-safe query examples.
 | [`SQL/04_security.sql`](SQL/04_security.sql) | Part D: 4 roles + access matrix, users, row-filtered patient view, salted SHA-256, SQL-injection demo with prepared statements, transactions | **Individual – Iulian Mucuta** |
 | [`05_ERD/Crownfield_Workbench_Model.mwb`](05_ERD/Crownfield_Workbench_Model.mwb) | Editable MySQL Workbench model built in the workshop | Group |
 | [`05_ERD/Workbench_EER_workshop_version.png`](05_ERD/Workbench_EER_workshop_version.png) | Group ER diagram of the nine clinical tables (Part A2) | Group |
-
-The individual report, presentation slides and recording are submitted separately through Moodle,
-not as part of this code repository.
 
 ## Setup and execution order
 
